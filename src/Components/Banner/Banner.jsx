@@ -16,7 +16,7 @@ const Banner = () => {
                     1500,
                     'A Back-End Developer.',
                     1500,
-                    'A MERN-Stack Developer',
+                    'A Front-End Developer',
                     1500,
                     'A Web Developer',
                     1500,
