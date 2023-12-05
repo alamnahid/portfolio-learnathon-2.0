@@ -21,7 +21,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div>
-                        <h1 className="text-white text-[2.25rem] font-bold">Nahid <span>Alam</span></h1>
+                        <h1 className="text-white text-[2.25rem] font-bold nova">Nahid <span className="text-[#94e720]">Alam</span></h1>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -35,7 +35,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-outline">Contact</a>
+                    <a className="btn btn-outline nova hover:bg-green-700 hover:text-white ">Contact</a>
                 </div>
             </div>
 
