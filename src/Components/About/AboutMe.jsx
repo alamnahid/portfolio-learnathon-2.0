@@ -1,4 +1,4 @@
-// import SectionTitle from "../Shared/Section Title/SectionTitle";
+import SectionTitle from "../Shared/Section Title/SectionTitle";
 import mypic from "../../assets/Md. Nahid Alam.jpg"
 import "./DownloadButton.css"
 import { saveAs } from 'file-saver';
@@ -13,9 +13,9 @@ const AboutMe = () => {
       };
     return (
         <div className="mx-[8%]">
-            {/* <SectionTitle title={'About'} semititle={'Introduction'}/> */}
+            <SectionTitle title={'About me'}/>
 
-            <div className="flex justify-evenly items-center">
+            <div className="flex justify-evenly items-center mt-20">
                
 
                 <div className="w-[50vw]">
