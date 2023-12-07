@@ -1,19 +1,20 @@
-.image-container {
-    position: relative;
-    overflow: scroll;
-    height: 400px;
+@keyframes scrollOnHover {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100%);
+    }
   }
   
-  .image-container img {
-    width: 100%;
+  .scroll-on-hover {
     transition: transform 0.5s ease-in-out;
+    overflow: hidden; 
   }
   
-  .image-container.hovered img {
-    transform: translateY(-100%);
-  }
-  
-  .image-container:hover img {
-    transform: translateY(0);
+  .scroll-on-hover:hover {
+    animation: scrollOnHover 15s;
+    animation-fill-mode: forwards; 
+    overflow: hidden;
   }
   
