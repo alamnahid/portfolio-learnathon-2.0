@@ -20,7 +20,7 @@ const Projects = () => {
 
             <div className="mt-20 space-y-12">
 
-                <div className="w-[90%] mx-auto lg:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center">
+                <div className="w-[90%] mx-auto xl:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center">
 
                     <div className="lg:w-[50%] lg:rounded-tl-2xl lg:rounded-bl-2xl h-[25rem] bg-[#374151] ">
                         <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[23rem] mt-4 overflow-hidden">
@@ -28,7 +28,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="lg:w-[50%] lg:h-[25rem] lg:rounded-tr-2xl lg:rounded-br-2xl bg-[#1f2937] opacity-70">
+                    <div className="lg:w-[50%] xl:h-[25rem] lg:rounded-tr-2xl lg:rounded-br-2xl bg-[#1f2937] opacity-70">
 
                         <div className="px-12 pt-12">
                             <h1 className="text-[#F9FAFB] text-xl font-semibold">Rivo Fashion: Elevating Style with an Online Shopping Experience</h1>
@@ -57,7 +57,7 @@ const Projects = () => {
 
                 {/* second project  */}
 
-                <div className="w-[90%] mx-auto lg:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row-reverse justify-center items-center">
+                <div className="w-[90%] mx-auto xl:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row-reverse justify-center items-center">
 
                     <div className="lg:w-[50%] lg:rounded-tr-2xl lg:rounded-br-2xl h-[25rem] bg-[#374151] ">
                         <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[23rem] mt-4 overflow-hidden">
@@ -65,7 +65,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="lg:w-[50%] lg:h-[25rem] lg:rounded-tl-2xl lg:rounded-bl-2xl bg-[#1f2937] opacity-70">
+                    <div className="lg:w-[50%] xl:h-[25rem] lg:rounded-tl-2xl lg:rounded-bl-2xl bg-[#1f2937] opacity-70">
 
                         <div className="px-12 pt-12">
                             <h1 className="text-[#F9FAFB] text-xl font-semibold">Plan A Plant - Plant E-Commerce Website</h1>
@@ -95,7 +95,7 @@ const Projects = () => {
 
                 {/* third project  */}
 
-                <div className="w-[90%] mx-auto lg:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center">
+                <div className="w-[90%] mx-auto xl:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center">
 
                     <div className="lg:w-[50%] lg:rounded-tl-2xl lg:rounded-bl-2xl h-[25rem] bg-[#374151] ">
                         <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[23rem] mt-4 overflow-hidden">
@@ -103,7 +103,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="lg:w-[50%] lg:h-[25rem] lg:rounded-tr-2xl lg:rounded-br-2xl bg-[#1f2937] opacity-70">
+                    <div className="lg:w-[50%] xl:h-[25rem] lg:rounded-tr-2xl lg:rounded-br-2xl bg-[#1f2937] opacity-70">
 
                         <div className="px-12 pt-12">
                             <h1 className="text-[#F9FAFB] text-xl font-semibold">SideCup Family Golf: Where Fun Swings with Every Stroke ⛳🌿</h1>
@@ -134,7 +134,7 @@ const Projects = () => {
 
                 {/* fourth project  */}
 
-                <div className={`w-[90%] mx-auto lg:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row-reverse justify-center items-center ${showAll? 'block' : 'hidden'}`}>
+                <div className={`w-[90%] mx-auto xl:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row-reverse justify-center items-center ${showAll? 'block' : 'hidden'}`}>
 
                     <div className="lg:w-[50%] lg:rounded-tr-2xl lg:rounded-br-2xl h-[25rem] bg-[#374151] ">
                         <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[23rem] mt-4 overflow-hidden">
@@ -142,7 +142,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="lg:w-[50%] lg:h-[25rem] lg:rounded-tl-2xl lg:rounded-bl-2xl bg-[#1f2937] opacity-70">
+                    <div className="lg:w-[50%] xl:h-[25rem] lg:rounded-tl-2xl lg:rounded-bl-2xl bg-[#1f2937] opacity-70">
 
                         <div className="px-12 pt-12">
                             <h1 className="text-[#F9FAFB] text-xl font-semibold">Hot Gadget Mobile Shop: Unleashing Cutting-Edge Tech at Your Fingertips</h1>
