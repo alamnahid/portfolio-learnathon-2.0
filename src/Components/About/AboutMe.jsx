@@ -5,13 +5,13 @@ import "./DownloadButton.css"
 const AboutMe = () => {
    
     return (
-        <div id="about" className="mx-[8%]">
+        <div id="about" className="mx-[8%] mt-20 lg:mt-0">
             <SectionTitle title={'About me'}/>
 
-            <div className="flex justify-evenly items-center mt-20">
+            <div className="flex flex-col-reverse lg:flex-row justify-center lg:justify-evenly items-center mt-20">
                
 
-                <div className="w-[50vw]">
+                <div className=" md:w-[70vw] lg:w-[50vw]">
                     <h1 className="text-[2rem] font-bold text-[#F9FAFB]">Curious about me? Here you have it:</h1>
                     <p className="text-base leading-[1.5rem] text-justify mt-7 text-[#D1D5DB]">
                         Hi, I am Nahid, a dedicated front-end developer with a keen eye for creating seamless and visually stunning user experiences. My expertise lies in leveraging the power of React.js to build dynamic and responsive web applications that meet and exceed client expectations. <br />
@@ -30,12 +30,12 @@ const AboutMe = () => {
                 </div>
 
                 <div className="relative">
-                    <div className="w-[25rem] opacity-50 h-[30rem] bg-[#374151]">
+                    <div className="w-[20rem] md:w-[25rem] opacity-50 h-[25rem] md:h-[30rem] bg-[#374151]">
                        
                     </div>
 
-                    <div className="w-[25rem] h-[30rem] absolute -top-10 left-10">
-                    <img className="w-[25rem] h-[30rem]" src={mypic} alt="" />
+                    <div className="w-[20rem] md:w-[25rem] h-[25rem] md:h-[30rem] absolute -top-10 left-10">
+                    <img className="w-[20rem] md:w-[25rem] h-[25rem] md:h-[30rem]" src={mypic} alt="" />
 
                     </div>
 

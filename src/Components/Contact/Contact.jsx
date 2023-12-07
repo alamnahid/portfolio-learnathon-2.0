@@ -8,19 +8,19 @@ const Contact = () => {
         <div className="mt-20 pb-32">
             <SectionTitle title={'Get in Touch'} />
             
-            <p className="text-[#D1D5DB] text-center text-xl">
+            <p className="text-[#D1D5DB] text-center md:text-xl">
             What’s next? Feel free to reach out to me if you are looking for <br /> a developer, have a query, or simply want to connect.
             </p>
 
             <div className="flex justify-center items-center gap-5 mt-12 ">
                 <img src={email} alt="" />
-                <p className="text-[#F9FAFB] text-[2rem] font-semibold">nahidalam13765@gmail.com</p>
+                <p className="text-[#F9FAFB] md:text-[2rem] font-semibold">nahidalam13765@gmail.com</p>
             </div>
 
 
             <div className="flex justify-center items-center gap-5 mt-5 ">
                 <img src={call} alt="" />
-                <p className="text-[#F9FAFB] text-[2rem] font-semibold">+8801796281914</p>
+                <p className="text-[#F9FAFB] md:text-[2rem] font-semibold">+8801796281914</p>
             </div>
 
             <div className="mt-12">

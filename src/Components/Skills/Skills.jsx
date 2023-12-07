@@ -12,7 +12,7 @@ import MarqueeSkills from "./MarqueeSkills";
 
 const Skills = () => {
     return (
-        <div className="mt-32 mx-[10%]">
+        <div className="mt-32 md:mx-[10%]">
             <SectionTitle title={'Skills'} semititle={'The skills, tools and technologies I am really good at:'} />
 
             <div className="mt-20">
