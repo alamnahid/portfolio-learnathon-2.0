@@ -4,10 +4,10 @@ import SocialMediaButton from "./SocialMediaButton";
 
 const Banner = () => {
     return (
-        <div className="min-h-[100vh] w-full text-center flex flex-col justify-center items-center">
-            <p className="text-[#828282] text-xl font-medium dm">LETS BUILD SOMETHING TOGETHER</p>
+        <div className="lg:min-h-[100vh] w-full text-center flex flex-col justify-center items-center pt-32 lg:pt-0">
+            <p className="text-[#828282] text-xs lg:text-xl font-medium dm">LETS BUILD SOMETHING TOGETHER</p>
 
-            <h1 className="text-[5rem] font-bold mt-3 text-white">Hi, I am <span className="text-[#27AE60]">Nahid</span> Alam</h1>
+            <h1 className="text-4xl lg:text-[5rem] font-bold mt-10 text-white">Hi, I am <span className="text-[#27AE60]">Nahid</span> Alam</h1>
 
             <TypeAnimation
                 sequence={[
@@ -22,12 +22,12 @@ const Banner = () => {
                     1500,
                 ]}
                 speed={50}
-                style={{ fontSize: '2.5em', }}
-                className="dmsans mt-4 "
+                // style={{ fontSize: '2.5em', }}
+                className="dmsans mt-6 lg:mt-12 text-lg lg:text-[2.5rem]"
                 repeat={Infinity}
             />
 
-            <p className="mt-4 text-gray-400 dmsans">I concentrate on developing back-end <br /> technology-integrated responsive front-end web applications.</p>
+            <p className="mt-8 text-gray-400 dmsans text-xs md:text-base">I concentrate on developing back-end <br /> technology-integrated responsive front-end web applications.</p>
 
             <SocialMediaButton/>
 

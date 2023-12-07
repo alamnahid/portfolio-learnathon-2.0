@@ -20,7 +20,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div>
-                        <h1 className="text-white text-[2.25rem] font-bold nova">Nahid <span className="text-[#27AE60]">Alam</span></h1>
+                        <h1 className="text-white text-lg md:text-xl lg:text-[2.25rem] font-bold nova">Nahid <span className="text-[#27AE60]">Alam</span></h1>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
