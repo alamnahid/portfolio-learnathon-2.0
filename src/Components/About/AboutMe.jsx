@@ -5,7 +5,7 @@ import "./DownloadButton.css"
 const AboutMe = () => {
    
     return (
-        <div className="mx-[8%]">
+        <div id="about" className="mx-[8%]">
             <SectionTitle title={'About me'}/>
 
             <div className="flex justify-evenly items-center mt-20">

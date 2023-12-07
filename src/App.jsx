@@ -1,4 +1,5 @@
 
+import { Element } from 'react-scroll'
 import './App.css'
 import AboutMe from './Components/About/AboutMe'
 import Banner from './Components/Banner/Banner'
@@ -10,12 +11,14 @@ function App() {
 
   return (
     <>
-    <Navbar/>
-    <Banner/>
-    <AboutMe/>
-    <Skills/>
-    <Projects/>
-      
+      <Navbar />
+      <Banner />
+      <Element name="about">
+      <AboutMe />
+      </Element>
+      <Skills />
+      <Projects />
+
     </>
   )
 }
