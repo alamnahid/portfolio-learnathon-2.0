@@ -6,6 +6,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.869)), url('./assets/tenor.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  
+}
+
 .nova {
     font-family: 'Nova Square', sans-serif;
 }

@@ -13,7 +13,7 @@ const AboutMe = () => {
       };
     return (
         <div className="mx-[8%]">
-            <SectionTitle />
+            <SectionTitle title={'About'} semititle={'Introduction'}/>
 
             <div className="flex justify-between items-center">
                 <div>

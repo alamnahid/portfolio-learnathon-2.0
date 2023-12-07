@@ -2,8 +2,8 @@
 
 const Navbar = () => {
     return (
-        <div className="mx-[8%] sticky">
-            <div className="navbar bg-base-100">
+        <div className="">
+            <div className="navbar bg-gray-950 px-[8%] fixed">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,16 +21,16 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div>
-                        <h1 className="text-white text-[2.25rem] font-bold nova">Nahid <span className="text-[#94e720]">Alam</span></h1>
+                        <h1 className="text-white text-[2.25rem] font-bold nova">Nahid <span className="text-[#27AE60]">Alam</span></h1>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className=" space-x-5 menu-horizontal px-1">
-                        <li><a className="text-lg hover:text-green-700 hover:font-semibold" href="">About</a></li>
-                        <li><a className="text-lg hover:text-green-700 hover:font-semibold" href="">Skills</a></li>
-                        <li><a className="text-lg hover:text-green-700 hover:font-semibold" href="">Education</a></li>
-                        <li><a className="text-lg hover:text-green-700 hover:font-semibold" href="">Experience</a></li>
-                        <li><a className="text-lg hover:text-green-700 hover:font-semibold" href="">Project</a></li>
+                        <li><a className="text-lg hover:text-[#27AE60]" href="">About</a></li>
+                        <li><a className="text-lg hover:text-[#27AE60]" href="">Skills</a></li>
+                        <li><a className="text-lg hover:text-[#27AE60]" href="">Education</a></li>
+                        <li><a className="text-lg hover:text-[#27AE60]" href="">Experience</a></li>
+                        <li><a className="text-lg hover:text-[#27AE60]" href="">Project</a></li>
                         
                     </ul>
                 </div>
