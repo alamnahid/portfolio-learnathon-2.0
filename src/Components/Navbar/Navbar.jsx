@@ -11,16 +11,10 @@ const Navbar = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li>
-                                <Link to="about" smooth={true} duration={500}>
-                                    About
-                                </Link>
-                            </li>
-                            <li><a href="">Skills</a></li>
-                            <li><a href="">Education</a></li>
-                            <li><a href="">Experience</a></li>
-                            <li><a href="">Project</a></li>
-
+                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="about" smooth={true} duration={1000}>About</Link></li>
+                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="skills" smooth={true} duration={1000}>Skills</Link></li>
+                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="projects" smooth={true} duration={1000}>Projects</Link></li>
+                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="contact" smooth={true} duration={1000}>Contact</Link></li>
 
 
                         </ul>
@@ -32,13 +26,11 @@ const Navbar = () => {
                 <div className="navbar-center hidden lg:flex">
                     <ul className=" space-x-5 menu-horizontal px-1">
                         {/* <li><a className="text-lg hover:text-[#27AE60]" href="">About</a></li> */}
-                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="about" smooth={true} duration={1000}>
-                            About
-                        </Link></li>
-                        <li><a className="text-lg hover:text-[#27AE60]" href="">Skills</a></li>
-                        <li><a className="text-lg hover:text-[#27AE60]" href="">Education</a></li>
-                        <li><a className="text-lg hover:text-[#27AE60]" href="">Experience</a></li>
-                        <li><a className="text-lg hover:text-[#27AE60]" href="">Project</a></li>
+                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="about" smooth={true} duration={1000}>About</Link></li>
+                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="skills" smooth={true} duration={1000}>Skills</Link></li>
+                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="projects" smooth={true} duration={1000}>Projects</Link></li>
+                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="contact" smooth={true} duration={1000}>Contact</Link></li>
+                      
 
                     </ul>
                 </div>

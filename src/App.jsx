@@ -6,6 +6,7 @@ import Banner from './Components/Banner/Banner'
 import Projects from './Components/My Projects/Projects'
 import Navbar from './Components/Navbar/Navbar'
 import Skills from './Components/Skills/Skills'
+import Contact from './Components/Contact/Contact'
 
 function App() {
 
@@ -16,8 +17,15 @@ function App() {
       <Element name="about">
       <AboutMe />
       </Element>
+      <Element name="skills">
       <Skills />
+      </Element>
+      <Element name="projects">
       <Projects />
+      </Element>
+      <Element name="contact">
+      <Contact/>
+      </Element>
 
     </>
   )
