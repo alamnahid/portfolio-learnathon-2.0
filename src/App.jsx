@@ -7,9 +7,14 @@ import Projects from './Components/My Projects/Projects'
 import Navbar from './Components/Navbar/Navbar'
 import Skills from './Components/Skills/Skills'
 import Contact from './Components/Contact/Contact'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 
 function App() {
-
+  useEffect(()=>{
+    AOS.init();
+}, [])
   return (
     <>
       <Navbar />

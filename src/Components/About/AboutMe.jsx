@@ -29,8 +29,8 @@ const AboutMe = () => {
                     </div>
                 </div>
 
-                <div className="relative">
-                    <div className="w-[20rem] md:w-[25rem] opacity-50 h-[25rem] md:h-[30rem] bg-[#374151]">
+                <div data-aos="zoom-in-up" data-aos-duration="2000" className="relative hover:bg-[#27AE60] hover:shadow-xl hover:shadow-red-700">
+                    <div className="w-[20rem] md:w-[25rem] opacity-50 h-[25rem] md:h-[30rem] bg-[#374151] hover:bg-[#27AE60]">
                        
                     </div>
 
