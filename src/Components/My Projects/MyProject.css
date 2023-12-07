@@ -1,0 +1,19 @@
+.image-container {
+    position: relative;
+    overflow: scroll;
+    height: 400px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .image-container.hovered img {
+    transform: translateY(-100%);
+  }
+  
+  .image-container:hover img {
+    transform: translateY(0);
+  }
+  

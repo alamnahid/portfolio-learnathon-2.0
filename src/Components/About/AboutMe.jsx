@@ -1,16 +1,9 @@
 import SectionTitle from "../Shared/Section Title/SectionTitle";
 import mypic from "../../assets/Md. Nahid Alam.jpg"
 import "./DownloadButton.css"
-import { saveAs } from 'file-saver';
 
 const AboutMe = () => {
-    const handleDownload = () => {
-        // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
-        const pdfPath = '../../assets/Md Nahid Alam.pdf';
-    
-        // Trigger the download
-        saveAs(pdfPath, 'Your_Resume.pdf');
-      };
+   
     return (
         <div className="mx-[8%]">
             <SectionTitle title={'About me'}/>
@@ -28,7 +21,7 @@ const AboutMe = () => {
                         Whether you are looking to collaborate, share ideas, or explore opportunities, I am always open to connecting with like-minded professionals. Lets build the future of the web together!
                     </p>
 
-                    <div onClick={handleDownload} className="button ">
+                    <div className="button ">
                         My Resume
                         <span>
                             <span></span>

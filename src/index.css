@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 body{
-    background: linear-gradient(rgba(0, 0, 0, 0.766), rgba(0, 0, 0, 0.869)), url('./assets/tenor.gif');
+    background: linear-gradient(rgba(0, 0, 0, 0.545), rgba(0, 0, 0, 0.739)), url('./assets/tenor.gif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

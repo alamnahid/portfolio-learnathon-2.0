@@ -5,9 +5,9 @@ import SocialMediaButton from "./SocialMediaButton";
 const Banner = () => {
     return (
         <div className="min-h-[100vh] w-full text-center flex flex-col justify-center items-center">
-            <p className="text-[#828282] text-xl font-medium dm">LET'S BUILD SOMETHING TOGETHER</p>
+            <p className="text-[#828282] text-xl font-medium dm">LETS BUILD SOMETHING TOGETHER</p>
 
-            <h1 className="text-[5rem] font-bold mt-3 text-white">Hi, I'm <span className="text-[#27AE60]">Nahid</span> Alam</h1>
+            <h1 className="text-[5rem] font-bold mt-3 text-white">Hi, I am <span className="text-[#27AE60]">Nahid</span> Alam</h1>
 
             <TypeAnimation
                 sequence={[
