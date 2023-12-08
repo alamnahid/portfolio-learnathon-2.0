@@ -1,9 +1,22 @@
 import { useState } from "react";
-import { Link } from "react-scroll";
+import { Button, Link } from "react-scroll";
 
 
 const Navbar = () => {
     const [open, setOpen] = useState(false)
+    // const pdfPath = process.env.PUBLIC_URL + '/path/to/your/assets/Md Nahid Alam.pdf';
+    const handleDownload = () => {
+        const pdfPath = process.env.PUBLIC_URL + '../../assets/Md Nahid Alam.pdf';
+    
+        const link = document.createElement('a');
+        link.href = pdfPath;
+        link.download = 'downloaded_file.pdf';
+    
+        document.body.appendChild(link);
+        link.click();
+
+        document.body.removeChild(link);
+      };
     return (
         <div className="z-50">
             <div className="navbar bg-gray-950 px-[8%] fixed z-50">
@@ -38,7 +51,8 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
 
-                    <a className="btn btn-outline nova hover:bg-green-700 hover:text-white ">Download Resume</a>
+                    {/* <a className="btn btn-outline nova hover:bg-green-700 hover:text-white ">Download Resume</a> */}
+                    <Button onClick={handleDownload} className="btn btn-outline nova hover:bg-green-700 hover:text-white ">Download Resume</Button>
                 </div>
             </div>
 
