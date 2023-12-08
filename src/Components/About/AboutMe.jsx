@@ -3,7 +3,18 @@ import mypic from "../../assets/Md. Nahid Alam.jpg"
 import "./DownloadButton.css"
 
 const AboutMe = () => {
-   
+    const handleDownload = () => {
+        const pdfPath = '../../assets/Md Nahid Alam.pdf';
+    
+        const link = document.createElement('a');
+        link.href = pdfPath;
+        link.download = 'downloaded_file.pdf';
+    
+        document.body.appendChild(link);
+        link.click();
+
+        document.body.removeChild(link);
+      };
     return (
         <div id="about" className="mx-[8%] mt-20 lg:mt-0">
             <SectionTitle title={'About me'}/>
@@ -21,7 +32,7 @@ const AboutMe = () => {
                         Whether you are looking to collaborate, share ideas, or explore opportunities, I am always open to connecting with like-minded professionals. Lets build the future of the web together!
                     </p>
 
-                    <div className="button ">
+                    <div onClick={handleDownload} className="button ">
                         My Resume
                         <span>
                             <span></span>
