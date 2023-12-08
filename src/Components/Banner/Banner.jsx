@@ -18,7 +18,7 @@ const Banner = () => {
                     1500,
                     'A MERN Stack Developer',
                     1500,
-                    'A Web Developer',
+                    'A Full Stack Developer',
                     1500,
                 ]}
                 speed={50}
