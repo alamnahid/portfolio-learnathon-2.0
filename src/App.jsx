@@ -10,6 +10,7 @@ import Contact from './Components/Contact/Contact'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
+import GithubStats from './Components/Github Stats/GithubStats'
 
 function App() {
   useEffect(()=>{
@@ -28,9 +29,14 @@ function App() {
       <Element name="projects">
       <Projects />
       </Element>
+      
+      <GithubStats/>
+
       <Element name="contact">
       <Contact/>
       </Element>
+
+     
 
     </>
   )
