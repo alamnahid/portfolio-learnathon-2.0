@@ -1,32 +1,33 @@
 import SectionTitle from "../Shared/Section Title/SectionTitle";
-import email from "../../assets/email.svg"
-import call from "../../assets/call.svg"
-import SocialMediaButton from "../Banner/SocialMediaButton";
+
+
 
 const Contact = () => {
     return (
-        <div className="mt-20 pb-32">
+        <div className="mt-20 pb-32 mx-[10%]">
             <SectionTitle title={'Get in Touch'} />
-            
-            <p className="text-[#D1D5DB] text-center md:text-xl">
-            What’s next? Feel free to reach out to me if you are looking for <br /> a developer, have a query, or simply want to connect.
-            </p>
 
-            <div className="flex justify-center items-center gap-5 mt-12 ">
-                <img src={email} alt="" />
-                <p className="text-[#F9FAFB] md:text-[2rem] font-semibold">nahidalam13765@gmail.com</p>
-            </div>
+            <form className="mt-20 mx-auto text-center" action="">
+                <div className="flex gap-8 justify-center items-center">
+                    <input className="w-[22rem] pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="First name" type="text" name="name" id="" />
 
+                    <input className="w-[22rem] pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="Last name" type="text" name="name" id="" />
 
-            <div className="flex justify-center items-center gap-5 mt-5 ">
-                <img src={call} alt="" />
-                <p className="text-[#F9FAFB] md:text-[2rem] font-semibold">+8801796281914</p>
-            </div>
+                </div>
 
-            <div className="mt-12">
-                <p className="text-[#D1D5DB] text-center">You may also find me on these platforms!</p>
-                <SocialMediaButton/>
-            </div>
+                <input className="w-[46rem] mt-8 pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="Your email" type="text" name="name" id="" />
+                <br />
+
+                <textarea className="w-[46rem] mt-8 pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400" id="w3review" name="w3review" rows="4" cols="50" placeholder="Message">
+                    
+                </textarea>
+
+               <div className="text-center">
+               <input className="w-[9rem] h-[2.6.25rem] btn btn-neutral bg-[#27AE60] text-white text-lg mt-5" type="submit" value="Submit" />
+               </div>
+
+            </form>
+
         </div>
     );
 };
