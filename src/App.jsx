@@ -24,6 +24,9 @@ function App() {
       <Element name="about">
       <AboutMe />
       </Element>
+      <Element name="education">
+      <Education/>
+      </Element>
       <Element name="skills">
       <Skills />
       </Element>
@@ -37,7 +40,7 @@ function App() {
       <Contact/>
       </Element>
 
-      <Education/>
+      
 
      
 

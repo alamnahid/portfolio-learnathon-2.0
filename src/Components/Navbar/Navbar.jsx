@@ -33,6 +33,7 @@ const Navbar = () => {
                     <ul className=" space-x-5 menu-horizontal px-1">
                         {/* <li><a className="text-lg hover:text-[#27AE60]" href="">About</a></li> */}
                         <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="about" smooth={true} duration={1000}>About</Link></li>
+                        <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="education" smooth={true} duration={1000}>Education</Link></li>
                         <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="skills" smooth={true} duration={1000}>Skills</Link></li>
                         <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="projects" smooth={true} duration={1000}>Projects</Link></li>
                         <li> <Link className="text-lg hover:text-[#27AE60] cursor-pointer"  to="contact" smooth={true} duration={1000}>Contact</Link></li>

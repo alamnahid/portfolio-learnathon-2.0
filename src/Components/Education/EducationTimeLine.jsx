@@ -2,16 +2,16 @@ import education from "../../assets/education.png"
 
 const EducationTimeLine = () => {
     return (
-        <div>
+        <div className="mt-20">
             <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
                 <li>
-                    <div className="timeline-middle">
+                    <div  className="timeline-middle">
                         <img className="w-[4.5rem] h-[4.5rem]" src={education} alt="" />
                     </div>
-                    <div className="timeline-start md:text-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
+                    <div  data-aos="fade-down" data-aos-duration="2000" className="timeline-start md:text-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
                         <time className="font-mono italic">2020-2023</time>
                         <div className="text-2xl font-black">B.SC Engineering</div>
-                        <div className="text-xl font-black">Depertment of Computer Science & Engineering (CSE)</div>
+                        <div className="lg:text-xl font-black">Depertment of Computer Science & Engineering (CSE)</div>
                         <p className="mt-4">
                             <span className="text-lg">Daffodil International University</span> <br />
                             Birulia, Savar, Dhaka-1216 <br />
@@ -25,10 +25,10 @@ const EducationTimeLine = () => {
                     <div className="timeline-middle">
                     <img className="w-[4.5rem] h-[4.5rem]" src={education} alt="" />
                     </div>
-                    <div className="timeline-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
+                    <div  data-aos="fade-up" data-aos-duration="3000" className="timeline-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
                     <time className="font-mono italic">2020-2023</time>
                         <div className="text-2xl font-black">B.SC Engineering</div>
-                        <div className="text-xl font-black">Depertment of Computer Science & Engineering (CSE)</div>
+                        <div className="lg:text-xl font-black">Depertment of Computer Science & Engineering (CSE)</div>
                         <p className="mt-4">
                             <span className="text-lg">Daffodil International University</span> <br />
                             Birulia, Savar, Dhaka-1216 <br />
@@ -42,10 +42,10 @@ const EducationTimeLine = () => {
                     <div className="timeline-middle">
                     <img className="w-[4.5rem] h-[4.5rem]" src={education} alt="" />
                     </div>
-                    <div className="timeline-start md:text-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
+                    <div  data-aos="fade-down"  data-aos-duration="4000"className="timeline-start md:text-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
                     <time className="font-mono italic">2020-2023</time>
                         <div className="text-2xl font-black">B.SC Engineering</div>
-                        <div className="text-xl font-black">Depertment of Computer Science & Engineering (CSE)</div>
+                        <div className="lg:text-xl font-black">Depertment of Computer Science & Engineering (CSE)</div>
                         <p className="mt-4">
                             <span className="text-lg">Daffodil International University</span> <br />
                             Birulia, Savar, Dhaka-1216 <br />
