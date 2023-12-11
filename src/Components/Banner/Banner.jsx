@@ -1,9 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import SocialMediaButton from "./SocialMediaButton";
 
-
 const Banner = () => {
-    
     return (
         <div className="lg:min-h-[100vh] w-full text-center flex flex-col justify-center items-center pt-32 lg:pt-0">
             <p className="text-[#828282] text-xs lg:text-xl font-medium dm">LETS BUILD SOMETHING TOGETHER</p>

@@ -1,19 +1,12 @@
 import SectionTitle from "../Shared/Section Title/SectionTitle";
 import mypic from "../../assets/Md. Nahid Alam.jpg"
 import "./DownloadButton.css"
+import { saveAs } from 'file-saver';
 
 const AboutMe = () => {
     const handleDownload = () => {
-        const pdfPath = '../../assets/Md Nahid Alam.pdf';
-    
-        const link = document.createElement('a');
-        link.href = pdfPath;
-        link.download = 'downloaded_file.pdf';
-    
-        document.body.appendChild(link);
-        link.click();
-
-        document.body.removeChild(link);
+        const pdfFilePath = '../../../public/Md Nahid Alam.pdf';
+        saveAs(pdfFilePath, 'downloaded-file.pdf');
       };
     return (
         <div id="about" className="mx-[8%] mt-20 lg:mt-0">

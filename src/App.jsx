@@ -30,7 +30,7 @@ function App() {
       <Projects />
       </Element>
       
-      <GithubStats/>
+      {/* <GithubStats/> */}
 
       <Element name="contact">
       <Contact/>
