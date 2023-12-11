@@ -12,6 +12,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 import GithubStats from './Components/Github Stats/GithubStats'
 import Education from './Components/Education/Education'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   useEffect(()=>{
@@ -39,6 +40,8 @@ function App() {
       <Element name="contact">
       <Contact/>
       </Element>
+
+      <Footer/>
 
       
 
