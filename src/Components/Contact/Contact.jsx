@@ -4,21 +4,21 @@ import SectionTitle from "../Shared/Section Title/SectionTitle";
 
 const Contact = () => {
     return (
-        <div className="mt-20 pb-32 mx-[10%]">
+        <div className="mt-20 pb-10 lg:mx-[10%]">
             <SectionTitle title={'Get in Touch'} />
 
             <form className="mt-20 mx-auto text-center" action="">
-                <div className="flex gap-8 justify-center items-center">
-                    <input className="w-[22rem] pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="First name" type="text" name="name" id="" />
+                <div className="flex flex-col md:flex-row gap-8 justify-center items-center">
+                    <input className="w-full md:w-[22rem] pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="First name" type="text" name="name" id="" />
 
-                    <input className="w-[22rem] pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="Last name" type="text" name="name" id="" />
+                    <input className="w-full md:w-[22rem] pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="Last name" type="text" name="name" id="" />
 
                 </div>
 
-                <input className="w-[46rem] mt-8 pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="Your email" type="text" name="name" id="" />
+                <input className="w-full md:w-[46rem] mt-8 pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="Your email" type="text" name="name" id="" />
                 <br />
 
-                <textarea className="w-[46rem] mt-8 pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400" id="w3review" name="w3review" rows="4" cols="50" placeholder="Message">
+                <textarea className="lg:w-[46rem] mt-8 pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400" id="w3review" name="w3review"  cols="50" placeholder="Message">
                     
                 </textarea>
 
