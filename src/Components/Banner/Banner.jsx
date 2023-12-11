@@ -10,7 +10,6 @@ const Banner = () => {
 
             <TypeAnimation
                 sequence={[
-                    // Same substring at the start will only be typed once, initially
                     'A Front-End Developer.',
                     1500,
                     'A Back-End Developer.',
@@ -21,7 +20,6 @@ const Banner = () => {
                     1500,
                 ]}
                 speed={50}
-                // style={{ fontSize: '2.5em', }}
                 className="dmsans mt-6 lg:mt-12 text-lg lg:text-[2.5rem]"
                 repeat={Infinity}
             />

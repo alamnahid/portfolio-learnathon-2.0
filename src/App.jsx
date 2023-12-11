@@ -11,6 +11,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 import GithubStats from './Components/Github Stats/GithubStats'
+import Education from './Components/Education/Education'
 
 function App() {
   useEffect(()=>{
@@ -35,6 +36,8 @@ function App() {
       <Element name="contact">
       <Contact/>
       </Element>
+
+      <Education/>
 
      
 
