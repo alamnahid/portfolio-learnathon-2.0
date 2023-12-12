@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Link } from "react-scroll";
+import { Link } from "react-scroll";
 import resumepdf from "../../../public/NahidAlam.pdf"
 const Navbar = () => {
     const [open, setOpen] = useState(false)
@@ -37,10 +37,6 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-
-                    {/* <a className="btn btn-outline nova hover:bg-green-700 hover:text-white ">Download Resume</a> */}
-
-
                     <a
                         className="btn btn-outline nova hover:bg-green-700 hover:text-white "
                         href={resumepdf}

@@ -1,13 +1,10 @@
 import SectionTitle from "../Shared/Section Title/SectionTitle";
 import mypic from "../../assets/Md. Nahid Alam.jpg"
 import "./DownloadButton.css"
-import { saveAs } from 'file-saver';
+import resumepdf from "../../../public/NahidAlam.pdf"
 
 const AboutMe = () => {
-    const handleDownload = () => {
-        const pdfFilePath = '../../../public/Md Nahid Alam.pdf';
-        saveAs(pdfFilePath, 'downloaded-file.pdf');
-      };
+    
     return (
         <div id="about" className="mx-[8%] mt-20 lg:mt-0">
             <SectionTitle title={'About me'}/>
@@ -25,8 +22,16 @@ const AboutMe = () => {
                         Whether you are looking to collaborate, share ideas, or explore opportunities, I am always open to connecting with like-minded professionals. Lets build the future of the web together!
                     </p>
 
-                    <div onClick={handleDownload} className="button ">
-                        My Resume
+                    <div className="button ">
+                    <a
+                        
+                        href={resumepdf}
+                        download="nahid-resume.pdf"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        Download Resume
+                    </a>
                         <span>
                             <span></span>
                         </span>
