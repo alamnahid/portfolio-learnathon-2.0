@@ -20,15 +20,15 @@ const Projects = () => {
 
             <div className="mt-20 space-y-12">
 
-                <div className="w-[90%] mx-auto xl:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center">
+                <div className="w-[90%] hover:shadow-2xl hover:shadow-gray-700 mx-auto xl:h-[27rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center">
 
-                    <div className="lg:w-[50%] lg:rounded-tl-2xl lg:rounded-bl-2xl h-[25rem] bg-[#374151] ">
-                        <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[23rem] mt-4 overflow-hidden">
+                    <div className="lg:w-[50%] lg:rounded-tl-2xl lg:rounded-bl-2xl h-[27rem] bg-[#374151] ">
+                        <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[25rem] mt-4 overflow-hidden">
                             <img className="w-[90%] cursor-pointer rounded-lg mx-auto scroll-on-hover" src={rivo} alt="" />
                         </div>
                     </div>
 
-                    <div className="lg:w-[50%] xl:h-[25rem] lg:rounded-tr-2xl lg:rounded-br-2xl bg-[#1f2937] opacity-70">
+                    <div className="lg:w-[50%] xl:h-[27rem] lg:rounded-tr-2xl lg:rounded-br-2xl bg-[#1f2937] opacity-70">
 
                         <div className="px-12 pt-12">
                             <h1 className="text-[#F9FAFB] text-xl font-semibold">Rivo Fashion: Elevating Style with an Online Shopping Experience</h1>
@@ -43,9 +43,25 @@ const Projects = () => {
                                 <ProjectSkillGain skillname={'React Router'} />
 
                             </div>
-                            <a href="https://marvelous-coil.surge.sh/" target="_blank" rel="noreferrer">
-                                <img className="mt-8 w-[3rem] cursor-pointer" src={goto} alt="" />
-                            </a>
+                            <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center">
+                                <a href="https://letsyourskillup.web.app/" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Live Link</button>
+                                    </div>
+                                </a>
+
+                                <a href="https://github.com/jannat-jui/lets-your-skills-up-client-side" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Client Side</button>
+                                    </div>
+                                </a>
+
+                                <a href="https://github.com/jannat-jui/lets-your-skills-up-server-side" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Server Side</button>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
 
@@ -57,15 +73,15 @@ const Projects = () => {
 
                 {/* second project  */}
 
-                <div className="w-[90%] mx-auto xl:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row-reverse justify-center items-center">
+                <div className="w-[90%] hover:shadow-2xl hover:shadow-gray-700 mx-auto xl:h-[27rem] lg:rounded-2xl flex flex-col lg:flex-row-reverse justify-center items-center">
 
-                    <div className="lg:w-[50%] lg:rounded-tr-2xl lg:rounded-br-2xl h-[25rem] bg-[#374151] ">
-                        <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[23rem] mt-4 overflow-hidden">
+                    <div className="lg:w-[50%] lg:rounded-tr-2xl lg:rounded-br-2xl h-[27rem] bg-[#374151] ">
+                        <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[25rem] mt-4 overflow-hidden">
                             <img className="w-[90%] cursor-pointer rounded-lg mx-auto scroll-on-hover" src={plant} alt="" />
                         </div>
                     </div>
 
-                    <div className="lg:w-[50%] xl:h-[25rem] lg:rounded-tl-2xl lg:rounded-bl-2xl bg-[#1f2937] opacity-70">
+                    <div className="lg:w-[50%] xl:h-[27rem] lg:rounded-tl-2xl lg:rounded-bl-2xl bg-[#1f2937] opacity-70">
 
                         <div className="px-12 pt-12">
                             <h1 className="text-[#F9FAFB] text-xl font-semibold">Plan A Plant - Plant E-Commerce Website</h1>
@@ -83,9 +99,25 @@ const Projects = () => {
                                 <ProjectSkillGain skillname={'MongoDB'} />
 
                             </div>
-                            <a href="https://plan-a-plant.web.app/" target="_blank" rel="noreferrer">
-                                <img className="mt-8 w-[3rem] cursor-pointer" src={goto} alt="" />
-                            </a>
+                            <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center">
+                                <a href="https://letsyourskillup.web.app/" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Live Link</button>
+                                    </div>
+                                </a>
+
+                                <a href="https://github.com/jannat-jui/lets-your-skills-up-client-side" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Client Side</button>
+                                    </div>
+                                </a>
+
+                                <a href="https://github.com/jannat-jui/lets-your-skills-up-server-side" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Server Side</button>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
 
@@ -95,15 +127,15 @@ const Projects = () => {
 
                 {/* third project  */}
 
-                <div className="w-[90%] mx-auto xl:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center">
+                <div className="w-[90%] hover:shadow-2xl hover:shadow-gray-700 mx-auto xl:h-[27rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center">
 
-                    <div className="lg:w-[50%] lg:rounded-tl-2xl lg:rounded-bl-2xl h-[25rem] bg-[#374151] ">
-                        <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[23rem] mt-4 overflow-hidden">
+                    <div className="lg:w-[50%] lg:rounded-tl-2xl lg:rounded-bl-2xl h-[27rem] bg-[#374151] ">
+                        <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[25rem] mt-4 overflow-hidden">
                             <img className="w-[90%] cursor-pointer rounded-lg mx-auto scroll-on-hover" src={golf} alt="" />
                         </div>
                     </div>
 
-                    <div className="lg:w-[50%] xl:h-[25rem] lg:rounded-tr-2xl lg:rounded-br-2xl bg-[#1f2937] opacity-70">
+                    <div className="lg:w-[50%] xl:h-[27rem] lg:rounded-tr-2xl lg:rounded-br-2xl bg-[#1f2937] opacity-70">
 
                         <div className="px-12 pt-12">
                             <h1 className="text-[#F9FAFB] text-xl font-semibold">SideCup Family Golf: Where Fun Swings with Every Stroke ⛳🌿</h1>
@@ -118,9 +150,25 @@ const Projects = () => {
                                 <ProjectSkillGain skillname={'React Router'} />
 
                             </div>
-                            <a href="https://alamnahid.github.io/sidecut-family-golf-animated-website-project/" target="_blank" rel="noreferrer">
-                                <img className="mt-8 w-[3rem] cursor-pointer" src={goto} alt="" />
-                            </a>
+                            <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center">
+                                <a href="https://letsyourskillup.web.app/" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Live Link</button>
+                                    </div>
+                                </a>
+
+                                <a href="https://github.com/jannat-jui/lets-your-skills-up-client-side" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Client Side</button>
+                                    </div>
+                                </a>
+
+                                <a href="https://github.com/jannat-jui/lets-your-skills-up-server-side" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Server Side</button>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
 
@@ -134,15 +182,15 @@ const Projects = () => {
 
                 {/* fourth project  */}
 
-                <div className={`w-[90%] mx-auto xl:h-[25rem] lg:rounded-2xl flex flex-col lg:flex-row-reverse justify-center items-center ${showAll? 'block' : 'hidden'}`}>
+                <div className={`w-[90%] hover:shadow-2xl hover:shadow-gray-700 mx-auto xl:h-[27rem] lg:rounded-2xl flex flex-col lg:flex-row-reverse justify-center items-center ${showAll? 'block' : 'hidden'}`}>
 
-                    <div className="lg:w-[50%] lg:rounded-tr-2xl lg:rounded-br-2xl h-[25rem] bg-[#374151] ">
-                        <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[23rem] mt-4 overflow-hidden">
+                    <div className="lg:w-[50%] lg:rounded-tr-2xl lg:rounded-br-2xl h-[27rem] bg-[#374151] ">
+                        <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[25rem] mt-4 overflow-hidden">
                             <img className="w-[90%] cursor-pointer rounded-lg mx-auto scroll-on-hover" src={mobile} alt="" />
                         </div>
                     </div>
 
-                    <div className="lg:w-[50%] xl:h-[25rem] lg:rounded-tl-2xl lg:rounded-bl-2xl bg-[#1f2937] opacity-70">
+                    <div className="lg:w-[50%] xl:h-[27rem] lg:rounded-tl-2xl lg:rounded-bl-2xl bg-[#1f2937] opacity-70">
 
                         <div className="px-12 pt-12">
                             <h1 className="text-[#F9FAFB] text-xl font-semibold">Hot Gadget Mobile Shop: Unleashing Cutting-Edge Tech at Your Fingertips</h1>
@@ -157,9 +205,25 @@ const Projects = () => {
                                 <ProjectSkillGain skillname={'React Router'} />
 
                             </div>
-                            <a href="https://alamnahid.github.io/hot-gadget-mobile-shop-website-using-api/" target="_blank" rel="noreferrer">
-                                <img className="mt-8 w-[3rem] cursor-pointer" src={goto} alt="" />
-                            </a>
+                            <div className="flex flex-col xl:flex-row xl:justify-between xl:items-center">
+                                <a href="https://letsyourskillup.web.app/" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Live Link</button>
+                                    </div>
+                                </a>
+
+                                <a href="https://github.com/jannat-jui/lets-your-skills-up-client-side" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Client Side</button>
+                                    </div>
+                                </a>
+
+                                <a href="https://github.com/jannat-jui/lets-your-skills-up-server-side" target="_blank" rel="noreferrer">
+                                    <div className="mt-3">
+                                        <button className="btn text-white text-lg bg-[#374151] flex justify-center items-center"><img className=" w-[2rem] cursor-pointer" src={goto} alt="" />Server Side</button>
+                                    </div>
+                                </a>
+                            </div>
 
                         </div>
 
