@@ -4,7 +4,7 @@ import tick from "../../assets/tick.png"
 
 
 const Contact = () => {
-    const [state, handleSubmit] = useForm("xqkvrwnj");
+    const [state, handleSubmit] = useForm("mjvqnzab");
     if (state.succeeded) {
         return <div className="my-32 px-4">
             <img className="w-[8rem] mx-auto" src={tick} alt="" />
@@ -32,7 +32,7 @@ const Contact = () => {
                 <input className="w-full md:w-[46rem] mt-8 pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400 h-[3.5rem]" placeholder="Type subject" type="text" name="subject" required id="" />
                 <br />
 
-                <textarea className="lg:w-[46rem] mt-8 pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400" id="w3review" required name="message" cols="50" placeholder="Message">
+                <textarea className="w-full md:w-[46rem] mt-8 pl-4 text-xl text-gray-100 bg-transparent border-b-2 border-gray-500 rounded-b-md outline-none hover:shadow-sm hover:shadow-gray-400" id="w3review" required name="message" cols="50" placeholder="Message">
 
                 </textarea>
 
