@@ -8,7 +8,7 @@ const EducationTimeLine = () => {
                     <div  className="timeline-middle">
                         <img className="w-[4.5rem] h-[4.5rem]" src={education} alt="" />
                     </div>
-                    <div  data-aos="fade-down" data-aos-duration="2000" className="timeline-start md:text-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
+                    <div  data-aos="fade-down" data-aos-duration="2000" className="timeline-start lg:w-[35vw] md:text-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
                         <time className="font-mono italic">2020-2023</time>
                         <div className="text-2xl font-black">B.SC Engineering</div>
                         <div className="lg:text-xl font-black">Depertment of Computer Science & Engineering (CSE)</div>
@@ -25,7 +25,7 @@ const EducationTimeLine = () => {
                     <div className="timeline-middle">
                     <img className="w-[4.5rem] h-[4.5rem]" src={education} alt="" />
                     </div>
-                    <div  data-aos="fade-up" data-aos-duration="3000" className="timeline-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
+                    <div  data-aos="fade-up" data-aos-duration="3000" className="timeline-end lg:w-[35vw] mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
                     <time className="font-mono italic">2017-2019</time>
                         <div className="text-2xl font-black">Higher Secondary Certificate (H.S.C)</div>
                         <div className="lg:text-xl font-black">Science</div>
@@ -42,7 +42,7 @@ const EducationTimeLine = () => {
                     <div className="timeline-middle">
                     <img className="w-[4.5rem] h-[4.5rem]" src={education} alt="" />
                     </div>
-                    <div  data-aos="fade-down"  data-aos-duration="4000"className="timeline-start md:text-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
+                    <div  data-aos="fade-down"  data-aos-duration="4000"className="timeline-start lg:w-[35vw] md:text-end mb-10 bg-[#110e0e] border-b-4 rounded-b-lg hover:shadow-xl hover:shadow-gray-700 p-5">
                     <time className="font-mono italic">2017</time>
                         <div className="text-2xl font-black">Secondary School Certificate (S.S.C)</div>
                         <div className="lg:text-xl font-black">Science</div>
