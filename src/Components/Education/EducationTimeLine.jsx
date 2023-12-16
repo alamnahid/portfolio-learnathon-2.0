@@ -32,7 +32,7 @@ const EducationTimeLine = () => {
                         <p className="mt-4">
                             <span className="text-lg">Adamjee Cantonment College</span> <br />
                             Dhaka, Cantonment, Dhaka <br />
-                            GPA: 4.83 out of 5.00
+                            
                         </p>
                     </div>
                     <hr />
@@ -49,7 +49,7 @@ const EducationTimeLine = () => {
                         <p className="mt-4">
                             <span className="text-lg">Comilla Cantonment High School</span> <br />
                             Comilla Cantonement, Comilla <br />
-                            GPA: 5.00 out of 5.00
+                            
                         </p>
                     </div>
                     <hr />
