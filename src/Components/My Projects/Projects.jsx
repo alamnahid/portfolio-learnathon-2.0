@@ -258,7 +258,7 @@ const Projects = () => {
 
                 {/* fifth project  */}
 
-                <div className="w-[90%] hover:shadow-2xl hover:shadow-gray-700 mx-auto xl:h-[27rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center">
+                <div className={`w-[90%] hover:shadow-2xl hover:shadow-gray-700 mx-auto xl:h-[27rem] lg:rounded-2xl flex flex-col lg:flex-row justify-center items-center ${showAll ? 'block' : 'hidden'}`}>
 
                     <div className="lg:w-[50%] lg:rounded-tl-2xl lg:rounded-bl-2xl h-[27rem] bg-[#374151] ">
                         <div data-aos="zoom-in-up" data-aos-duration="2000" className="h-[25rem] mt-4 overflow-hidden">

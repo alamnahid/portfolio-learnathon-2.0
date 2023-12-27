@@ -13,6 +13,7 @@ import { useEffect } from 'react'
 import GithubStats from './Components/Github Stats/GithubStats'
 import Education from './Components/Education/Education'
 import Footer from './Components/Footer/Footer'
+import ExtraCurriCularActivities from './Components/ExtraCurricularActivities/ExtraCurriCularActivities'
 
 function App() {
   useEffect(()=>{
@@ -36,6 +37,7 @@ function App() {
       </Element>
       
       {/* <GithubStats/> */}
+      {/* <ExtraCurriCularActivities/> */}
 
       <Element name="contact">
       <Contact/>
