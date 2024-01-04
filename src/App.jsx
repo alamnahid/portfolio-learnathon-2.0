@@ -35,9 +35,6 @@ function App() {
       <Element name="projects">
       <Projects />
       </Element>
-      
-      {/* <GithubStats/> */}
-      {/* <ExtraCurriCularActivities/> */}
 
       <Element name="contact">
       <Contact/>
