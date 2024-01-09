@@ -38,7 +38,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <a
-                        className="btn btn-outline nova hover:bg-green-700 hover:text-white "
+                        className="btn btn-outline nova hover:bg-green-700 hover:text-white border-[#27AE60] text-[#27AE60] "
                         href={resumepdf}
                         download="nahid-resume.pdf"
                         target="_blank"
